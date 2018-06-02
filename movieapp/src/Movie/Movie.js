@@ -20,13 +20,10 @@ class Movie extends Component{
   }
 }
 
-class MoviePoster extends Component {
-  render(){
-    console.log(this.porps)
-    return(
-      <img src={this.props.poster}/>
+  function MoviePoster({poster}){
+    return (
+      <img src={poster} alt="Movie Poster"/>
     )
   }
-}
 
 export default Movie
