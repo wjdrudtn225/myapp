@@ -3,6 +3,7 @@ import "./App.css";
 import Movie from "./Movie/Movie";
 
 class App extends Component {
+  
   // Render: componentWillMount() -> render() -> componentDidMount()
   // Update componentWillReceiveProps() -> shouldComponentUpdate() -> componentWillUpdate() -> render() -> componentDidUpdate()
 
